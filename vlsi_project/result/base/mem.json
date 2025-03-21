@@ -1,0 +1,609 @@
+{
+  "creator": "Yosys 0.48+5 (git sha1 4581f75b0, clang++ 18.1.8 -fPIC -O3)",
+  "modules": {
+    "demux_1_to_8": {
+      "attributes": {
+        "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:1.1-29.10",
+        "top": "00000000000000000000000000000001",
+        "hdlname": "demux_1_to_8"
+      },
+      "ports": {
+        "d": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "s0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "s1": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "s2": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "y0": {
+          "direction": "output",
+          "bits": [ 6 ]
+        },
+        "y1": {
+          "direction": "output",
+          "bits": [ 7 ]
+        },
+        "y2": {
+          "direction": "output",
+          "bits": [ 8 ]
+        },
+        "y3": {
+          "direction": "output",
+          "bits": [ 9 ]
+        },
+        "y4": {
+          "direction": "output",
+          "bits": [ 10 ]
+        },
+        "y5": {
+          "direction": "output",
+          "bits": [ 11 ]
+        },
+        "y6": {
+          "direction": "output",
+          "bits": [ 12 ]
+        },
+        "y7": {
+          "direction": "output",
+          "bits": [ 13 ]
+        }
+      },
+      "cells": {
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:20$4": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:20.13-20.20"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 14 ],
+            "Y": [ 15 ]
+          }
+        },
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:20$5": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:20.13-20.26"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 15 ],
+            "B": [ 16 ],
+            "Y": [ 17 ]
+          }
+        },
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:20$6": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:20.13-20.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 17 ],
+            "B": [ 18 ],
+            "Y": [ 6 ]
+          }
+        },
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:21$7": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:21.13-21.19"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 3 ],
+            "Y": [ 19 ]
+          }
+        },
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:21$8": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:21.13-21.26"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 19 ],
+            "B": [ 16 ],
+            "Y": [ 20 ]
+          }
+        },
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:21$9": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:21.13-21.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 20 ],
+            "B": [ 18 ],
+            "Y": [ 7 ]
+          }
+        },
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:22$11": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:22.13-22.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 15 ],
+            "B": [ 4 ],
+            "Y": [ 21 ]
+          }
+        },
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:22$12": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:22.13-22.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 21 ],
+            "B": [ 18 ],
+            "Y": [ 8 ]
+          }
+        },
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:23$14": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:23.13-23.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 19 ],
+            "B": [ 4 ],
+            "Y": [ 22 ]
+          }
+        },
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:23$15": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:23.13-23.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 22 ],
+            "B": [ 18 ],
+            "Y": [ 9 ]
+          }
+        },
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:24$18": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:24.13-24.31"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 17 ],
+            "B": [ 5 ],
+            "Y": [ 10 ]
+          }
+        },
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:25$21": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:25.13-25.31"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 20 ],
+            "B": [ 5 ],
+            "Y": [ 11 ]
+          }
+        },
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:26$24": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:26.13-26.31"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 21 ],
+            "B": [ 5 ],
+            "Y": [ 12 ]
+          }
+        },
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:27$27": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:27.13-27.31"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 22 ],
+            "B": [ 5 ],
+            "Y": [ 13 ]
+          }
+        },
+        "$not$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:16$1": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:16.14-16.17"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "Y": [ 18 ]
+          }
+        },
+        "$not$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:17$2": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:17.14-17.17"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "Y": [ 16 ]
+          }
+        },
+        "$not$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:18$3": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:18.14-18.17"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "Y": [ 14 ]
+          }
+        }
+      },
+      "netnames": {
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:20$4_Y": {
+          "hide_name": 1,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:20.13-20.20"
+          }
+        },
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:20$5_Y": {
+          "hide_name": 1,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:20.13-20.26"
+          }
+        },
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:21$7_Y": {
+          "hide_name": 1,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:21.13-21.19"
+          }
+        },
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:21$8_Y": {
+          "hide_name": 1,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:21.13-21.26"
+          }
+        },
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:22$11_Y": {
+          "hide_name": 1,
+          "bits": [ 21 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:22.13-22.25"
+          }
+        },
+        "$and$/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:23$14_Y": {
+          "hide_name": 1,
+          "bits": [ 22 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:23.13-23.25"
+          }
+        },
+        "d": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:2.11-2.12"
+          }
+        },
+        "s0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:3.11-3.13"
+          }
+        },
+        "s0n": {
+          "hide_name": 0,
+          "bits": [ 14 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:18.8-18.11"
+          }
+        },
+        "s1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:4.11-4.13"
+          }
+        },
+        "s1n": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:17.8-17.11"
+          }
+        },
+        "s2": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:5.11-5.13"
+          }
+        },
+        "s2n": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:16.8-16.11"
+          }
+        },
+        "y0": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:6.12-6.14"
+          }
+        },
+        "y1": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:7.12-7.14"
+          }
+        },
+        "y2": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:8.12-8.14"
+          }
+        },
+        "y3": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:9.12-9.14"
+          }
+        },
+        "y4": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:10.12-10.14"
+          }
+        },
+        "y5": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:11.12-11.14"
+          }
+        },
+        "y6": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:12.12-12.14"
+          }
+        },
+        "y7": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "attributes": {
+            "src": "/home/bhagyabiradar02/OpenROAD-flow-scripts/flow/designs/src/project/demux_1_to_8.v:13.12-13.14"
+          }
+        }
+      }
+    }
+  }
+}

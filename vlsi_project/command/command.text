@@ -1,0 +1,30 @@
+ cd OpenROAD-flow-scripts/
+  174  cd flow/
+  175  cd src
+  176  ls
+  177  cd designs/src/
+  178  mkdir project
+  179  cd project/
+  180  vi demux_1_to_8.v
+  181  cd ..
+  182  cd ../..
+  183  cd designs/sky130hd
+  184  mkdir project
+  185  cd project/
+  186  cp -rf ../gcd/* .
+  187  ls
+  188  gvim config.mk
+  189  cd ../../../
+  190  gvim Makefile
+  191  make DESIGN_CONFIG=./designs/sky130hd/project/config.mk
+  192  cd designs/sky130hd/project/
+  193  gvim config.mk
+  194  make clean_all DESIGN_CONFIG=./designs/sky130hd/project/config.mk
+  195  make clean DESIGN_CONFIG=./designs/sky130hd/project/config.mk
+  196  make DESIGN_CONFIG=./designs/sky130hd/project/config.mk clean_all
+  197  clear
+  198  cd ../../../
+  199  make DESIGN_CONFIG=./designs/sky130hd/project/config.mk clean_all
+  200  make DESIGN_CONFIG=./designs/sky130hd/project/config.mk
+  201  make DESIGN_CONFIG=./designs/sky130hd/project/config.mk gui_final
+  202  klayout

@@ -1,0 +1,4 @@
+
+17. Executing CHECK pass (checking for obvious problems).
+Checking module demux_1_to_8...
+Found and reported 0 problems.

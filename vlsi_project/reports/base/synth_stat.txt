@@ -1,0 +1,23 @@
+
+18. Printing statistics.
+
+=== demux_1_to_8 ===
+
+   Number of wires:                 12
+   Number of wire bits:             12
+   Number of public wires:          12
+   Number of public wire bits:      12
+   Number of ports:                 12
+   Number of port bits:             12
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  8
+     sky130_fd_sc_hd__and4_2         1
+     sky130_fd_sc_hd__and4b_2        3
+     sky130_fd_sc_hd__and4bb_2       3
+     sky130_fd_sc_hd__nor4b_2        1
+
+   Chip area for module '\demux_1_to_8': 96.342400
+     of which used for sequential elements: 0.000000 (0.00%)
+
